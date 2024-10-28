@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+:root {
+  --dark-blue: #2B3844;
+  --darker-blue: #202C36;
+  --white: #F2F2F2;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+}
+
+body.dark-mode {
+  background-color: var(--darker-blue);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: var(--darker-blue);
+}
+
+body.dark-mode .navbar {
+  background-color: var(--dark-blue);
+}
+
+
+body.dark-mode .country-card {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+  max-width: 1300px;
+  margin: 40px auto;
+ 
+}
+
+
+.country-card {
+  background-color: white;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+}
+
+.country-card-content {
+  background-color: var(--white);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.country-card h3 {
+  font-weight: 600;
+  padding-left: 17px;
+  margin-bottom: 5px; 
+}
+
+.country-card p {
+  margin: 3px;
+  font-weight: 400;
+  padding-left: 15px;
+  margin-top: 5; 
+  line-height: 1.5; 
+}
+
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.search-container {
+  width: 300px;
+  flex-grow: 1;
+}
+
+.search-input {
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  color: black;
+  box-sizing: border-box;
+  margin-left: 70px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+body.dark-mode .search-input{
+background-color: var(--dark-blue);
+color: var(--white);
+
+}
+
+.region-select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 65px;
+}
+
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: black;
+  margin: 30px;
+  gap: 10px; 
+}
+
+
+.dark-mode-text {
+  font-size: 20px;
+}
+
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
