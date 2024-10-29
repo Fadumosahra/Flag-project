@@ -1,2 +1,2 @@
-- [Github repository](https://ditt-repo-här)
+- [Github repository](https://github.com/Fadumosahra/Flag-project.git)
 - [Deployat projekt](https://ditt-projekt-här)
