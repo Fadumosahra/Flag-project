@@ -22,7 +22,7 @@ body.dark-mode {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 30px;
+  padding: 0.5vh 2vw; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: var(--darker-blue);
 }
@@ -42,10 +42,9 @@ body.dark-mode .country-card {
 .countries-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 100px;
-  max-width: 1300px;
-  margin: 40px auto;
- 
+  gap: 7.69vw;
+  max-width: 90vw;
+  margin: 5.26vh auto;
 }
 
 
@@ -54,10 +53,10 @@ body.dark-mode .country-card {
   padding: 0;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  height: 350px;
+  height: 46.67vh;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  
 }
 
 .country-card img {
@@ -88,7 +87,7 @@ body.dark-mode .country-card {
   font-weight: 400;
   padding-left: 15px;
   margin-top: 5; 
-  line-height: 1.2; 
+  line-height: 1.6; 
 }
 
 
@@ -96,18 +95,15 @@ body.dark-mode .country-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 5.26vh;
 }
 
-.search-container {
-  width: 300px;
-  flex-grow: 1;
-}
+
 
 .search-input {
-  width: 400px;
-  padding: 15px;
-  margin: 0 auto 20px auto;
+  width: 30vw;
+  padding:2.31vh;
+  margin: auto 3.08vh auto;
   border-radius: 5px;
   font-size: 16px;
   border: none;
@@ -125,14 +121,15 @@ color: var(--white);
 }
 
 .region-select {
-  width: 200px;
-  padding: 10px;
+  width: 15.38vw;
+  padding: 1.54vh;
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
   outline: none;
-  margin-right: 65px;
+  margin-right: 4.46vw;
 }
+
 
 .dark-mode-toggle {
   display: flex;
