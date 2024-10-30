@@ -23,12 +23,19 @@ body.dark-mode {
   justify-content: space-between;
   align-items: center;
   padding: 0.5vh 2vw; 
+  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: var(--darker-blue);
 }
 
+
+
+
+
+
 body.dark-mode .navbar {
   background-color: var(--dark-blue);
+  color: white;
 }
 
 
@@ -38,15 +45,13 @@ body.dark-mode .country-card {
 }
 
 
-
 .countries-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 7.69vw;
-  max-width: 90vw;
-  margin: 5.26vh auto;
+  gap: 6vw;
+  max-width: 250vh;
+  margin: 4vh;
 }
-
 
 .country-card {
   background-color: white;
@@ -56,7 +61,6 @@ body.dark-mode .country-card {
   height: 46.67vh;
   display: flex;
   flex-direction: column;
-  
 }
 
 .country-card img {
@@ -91,26 +95,26 @@ body.dark-mode .country-card {
 }
 
 
-
-.filter-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5.26vh;
+  .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+    width: 99%;
+  
 }
 
 
-
 .search-input {
-  width: 30vw;
+  width: 150%;
   padding:2.31vh;
-  margin: auto 3.08vh auto;
+  margin: 5vh ;
   border-radius: 5px;
   font-size: 16px;
   border: none;
   color: black;
   box-sizing: border-box;
-  margin-left: 70px;
+  margin-left: 29px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 
 }
@@ -121,15 +125,6 @@ color: var(--white);
 
 }
 
-.region-select {
-  width: 15.38vw;
-  padding: 1.54vh;
-  font-size: 16px;
-  border-radius: 10px;
-  cursor: pointer;
-  outline: none;
-  margin-right: 4.46vw;
-}
 
 
 .dark-mode-toggle {
@@ -139,27 +134,57 @@ color: var(--white);
   border: none;
   cursor: pointer;
   outline: black;
-  margin: 30px;
-  gap: 10px; 
+  margin:30px;
+  gap: 5px; 
+  
 }
 
 
 .dark-mode-text {
   font-size: 20px;
+  margin-right: -31px;
 }
 
 
-@media (max-width: 375px) {
-  body {
-    font-size: 14px;
-  }
-}
 
 @media (min-width: 1440px) {
-  body {
-    font-size: 16px;
+  .countries-container {
+      grid-template-columns: repeat(4, 1fr);
+  }
+  .country-card h3 {
+      font-size: 1.5em; 
   }
 }
 
 
+@media (max-width: 1024px) {
+  .countries-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4vw;
+  }
+  .country-card h3, .country-name {
+      font-size: 1.3em;
+  }
+}
 
+
+@media (max-width: 768px) {
+  .countries-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .country-card h3 {
+      font-size: 1.1em;
+  }
+  .country-info, .country-card p {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .countries-container {
+      grid-template-columns: 1fr;
+  }
+  .country-card h3, .country-info p {
+      font-size: 12px;
+  }
+}

@@ -15,8 +15,8 @@ const Navbar = ({ toggleDarkMode }) => {
   return (
     <nav className="navbar">
       
-      <h1 style={{ color: isDarkMode ? 'black' : 'white', fontWeight: '600' }}>The Flag App</h1>
-
+      <h1 className="navbar-title" style={{ fontWeight: '600' }}>The Flag App</h1>
+      
       <img 
         src={isDarkMode ? darkLogo : lightLogo}  
         alt="Techover Logo" 
