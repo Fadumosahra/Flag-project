@@ -6,6 +6,7 @@
     --white: #F2F2F2;
 }
 
+@media (max-width: 1440px) {
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -146,73 +147,60 @@ body {
 .dark-mode .back-button {
     color: var(--white);
 }
-
-
-
-
-@media (min-width: 1440px) {
-    .detail-container {
-        max-width: 1440px;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    .flag {
-        width: 400px;
-        height: auto;
-    }
-    .country-name {
-        font-size: 28px;
-    }
 }
 
 
-@media (max-width: 1024px) {
-    .detail-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 2vw;
-    }
-    .flag {
-        width: 70%;
-        height: auto;
-    }
-    .country-name {
-        font-size: 24px;
-        padding-top: 2rem;
-    }
-    .country-info {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .flag {
         width: 100%;
         height: auto;
+        margin-top: 50px;
+        left: 0;
     }
+
+  
+    .detail-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    
     .country-name {
-        font-size: 20px;
+        font-size: 1.5rem;
+        padding-top: 20px;
+        text-align: center;
     }
+
+  
     .country-info {
-        font-size: 14px;
-        grid-template-columns: 1fr;
+        font-size: 0.9rem;
+        grid-template-columns: 1fr; 
+       
     }
-    .back-button {
-        font-size: 1.1rem;
+ 
+    .border-countries-container {
+        grid-template-columns: repeat(1, 2fr);
+        flex-wrap: wrap;
+        max-width: 90%; 
+    
+      
     }
-}
-
-
-@media (max-width: 480px) {
-    .country-name {
-        font-size: 18px;
-    }
-    .country-info p {
+   
+    .border-button {
+        padding: 8px;
         font-size: 12px;
+        white-space: nowrap;
+        margin: 4px;
+        max-width: calc(100% / 3 - 10px); 
     }
+
     .back-button {
         font-size: 1rem;
+        margin-top: 20px;
+        left: 0;
     }
+   
 }
 
 
