@@ -6,7 +6,7 @@
     --white: #F2F2F2;
 }
 
-@media (max-width: 1440px) {
+ 
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -147,7 +147,7 @@ body {
 .dark-mode .back-button {
     color: var(--white);
 }
-}
+
 
 
 @media (max-width: 375px) {
@@ -203,4 +203,45 @@ body {
    
 }
 
+@media (max-width: 768px) {
 
+    .detail-container {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .navbar-logo {
+        display: none;
+      }
+
+    .flag {
+      width: 100%; 
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  
+
+    .country-info {
+      display: grid;
+      grid-template-columns: 1fr; 
+      gap: 1rem;
+      font-size: 0.9rem; 
+  
+  
+    .border-countries-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+   
+    .border-button {
+      padding: 8px;
+      font-size: 12px;
+    }
+  }
+  
+ 
+  }
