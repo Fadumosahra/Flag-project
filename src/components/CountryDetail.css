@@ -204,8 +204,7 @@ body {
         display: flex;
         flex-direction: column;
         padding: 1rem; 
-        max-width: 800px; 
-
+        max-width: 500px; 
         gap: 1px;
         
       }
@@ -216,8 +215,6 @@ body {
         height: auto; 
         object-fit: cover; 
         margin: 30px;
-
-
       }
       
       .flag-container {
@@ -236,11 +233,10 @@ body {
         line-height: 1.5; 
       }
       
-      
-
+    
       .border-countries-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
         gap: 2rem;
         margin-top: 1rem;
         
@@ -255,7 +251,7 @@ body {
       }
 
 
-  .back-button {
+    .back-button {
     font-size: 25px;
     margin-top: 20px;
     left: 0;

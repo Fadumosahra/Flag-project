@@ -208,9 +208,6 @@ color: var(--white);
 @media (max-width: 768px) {
 
 
-  
-    
-  
 
   .navbar {
     display: flex;
@@ -224,7 +221,7 @@ color: var(--white);
     display: none;
   }
   .navbar h1 {
-    font-size: 10px;
+    font-size: 30px;
     margin: 0; 
   }
   
