@@ -207,12 +207,16 @@ color: var(--white);
 
 @media (max-width: 768px) {
 
+
+  
+    
+  
+
   .navbar {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     padding: 1rem 2rem;
-    width: 100%; 
     box-sizing: border-box;
   }
   
@@ -220,14 +224,14 @@ color: var(--white);
     display: none;
   }
   .navbar h1 {
-    font-size: 1.5rem;
+    font-size: 10px;
     margin: 0; 
   }
   
   .dark-mode-toggle {
     display: flex;
     align-items: center; 
-    gap: 0.5rem; 
+    gap: 2px; 
   }
 
 
