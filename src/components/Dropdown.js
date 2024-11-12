@@ -34,7 +34,7 @@ const Dropdown = ({ options, selectedRegion, setSelectedRegion, isDarkMode }) =>
             outline: 'none',
             paddingRight: '40px', 
             marginRight: '20px',
-            
+        
           }),
           menu: (base) => ({
             ...base,

@@ -96,7 +96,6 @@ body {
     color: var(--white);
 }
 
-
 .country-info {
     font-size: 16px;
     display: grid;
@@ -104,7 +103,6 @@ body {
     gap: 2px;
     
 }
-
 
 .dark-mode .country-info {
     color: var(--white);
@@ -118,7 +116,6 @@ body {
     margin-left: 0px;
 
 }
-
 
 
 .dark-mode .country-info p {
@@ -147,7 +144,6 @@ body {
 .dark-mode .back-button {
     color: var(--white);
 }
-
 
 
 @media (max-width: 375px) {
@@ -204,44 +200,65 @@ body {
 }
 
 @media (max-width: 768px) {
-
     .detail-container {
-      display: flex;
-      flex-direction: column;
-      padding: 1rem;
-    }
-  
-    .navbar-logo {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem; 
+        max-width: 800px; 
+
+        gap: 1px;
+        
+      }
+      
+      .flag {
+        max-width: 500px;
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        margin: 30px;
+
+
+      }
+      
+      .flag-container {
+        margin-left: 40px; 
       }
 
-    .flag {
-      width: 100%; 
-      height: auto;
-      margin-bottom: 1rem;
-    }
-  
+     
+      .country-info-container{
+        margin-top: -140px;
 
-    .country-info {
-      display: grid;
-      grid-template-columns: 1fr; 
-      gap: 1rem;
-      font-size: 0.9rem; 
-  
-  
-    .border-countries-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
-      gap: 0.5rem;
-      margin-top: 1rem;
-    }
-  
-   
-    .border-button {
-      padding: 8px;
-      font-size: 12px;
-    }
-  }
-  
- 
-  }
+      }
+      .country-info {
+        display: grid;
+        grid-template-columns: 1fr; 
+        font-size: 1rem; 
+        line-height: 1.5; 
+      }
+      
+      
+
+      .border-countries-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+        gap: 2rem;
+        margin-top: 1rem;
+        
+      }
+      
+
+      .border-button {
+        padding: 8px;
+        font-size: 12px;
+        border-radius: 4px; 
+        cursor: pointer;
+      }
+
+
+  .back-button {
+    font-size: 25px;
+    margin-top: 20px;
+    left: 0;
+}
+
+}

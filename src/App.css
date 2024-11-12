@@ -7,7 +7,6 @@
 }
 
 
-
   body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -25,12 +24,8 @@ body.dark-mode {
   justify-content: space-between;
   align-items: center;
   padding: 0.5vh 2vw; 
-  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  color: var(--darker-blue);
 }
-
-
 
 
 
@@ -96,15 +91,14 @@ body.dark-mode .country-card {
   line-height: 1.6;
 }
 
-
   .filter-container {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    
     width: 99%;
   
 }
+
 
 
 .search-input {
@@ -121,10 +115,9 @@ body.dark-mode .country-card {
 
 }
 
-body.dark-mode .search-input{
+body.dark-mode .search-input {
 background-color: var(--dark-blue);
 color: var(--white);
-
 }
 
 
@@ -147,13 +140,6 @@ color: var(--white);
   margin-right: -31px;
 }
 
-
-
-
-
-
-
-
 @media (max-width: 375px) {
   .navbar-logo {
     display: none;
@@ -173,15 +159,10 @@ color: var(--white);
     padding: 0.5rem 2rem; 
   }
 
-
   .navbar h1 {
     font-size: 20px; 
     margin: 0;
   }
-
-
-  
-
   .dark-mode-toggle {
     font-size: 0,1em; 
     display: flex;
@@ -210,8 +191,6 @@ color: var(--white);
 }
 
   
-  
-
   .filter-container {
     display: flex;
     flex-direction: column;
@@ -230,49 +209,54 @@ color: var(--white);
 
   .navbar {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem;
+    width: 100%; 
+    box-sizing: border-box;
   }
-
-  .navbar-logo {
+  
+  .navbar-logo{
     display: none;
   }
-
   .navbar h1 {
-    font-size: 1.5rem; 
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    margin: 0; 
   }
-
+  
   .dark-mode-toggle {
-    font-size: 1rem;
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
   }
 
- 
+
   .countries-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    gap: 5rem;
     padding: 1rem;
   }
-
-
+  
   .country-card {
+    max-width: 400px;
+    margin: 0 auto; 
     margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
-
-
-
+  
   .filter-container {
     display: flex;
-    flex-direction: column;
-    gap: 0,2rem;
-    align-items: center;
+    flex-direction: column;  
+    align-items: center; 
   }
-
+  
   .search-input,
   .filter-dropdown {
-    width: 90%;
-    max-width: 300px;
+    width: 100%; 
+    max-width: 200px; 
+    padding: 15px; 
+    box-sizing: border-box;
+    
   }
+  
 }
