@@ -247,13 +247,12 @@ body {
 
       .border-countries {
         margin-top: 10px; 
-    
       }
 
     
       .no-border-countries {
-        margin-top: 10px; 
-        margin-left: -120px;
+        margin-bottom: -10px; 
+        margin-left: -30px;
         display: block;
     }
       .border-button {
