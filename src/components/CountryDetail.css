@@ -242,7 +242,7 @@ body {
      max-width: 100%; 
     grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
     gap: 6px; 
-    margin-top: 20px; 
+    margin-bottom: 40px; 
       }
 
       .border-countries {
@@ -254,7 +254,7 @@ body {
         margin-left: -30px;
     }
 
-    
+
       .border-button {
         padding: 8px;
         font-size: 12px;
