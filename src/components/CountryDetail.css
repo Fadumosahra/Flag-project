@@ -241,7 +241,7 @@ body {
       .border-countries-container {
      max-width: 100%; 
     grid-template-columns: repeat(auto-fill, minmax(100px, 5fr));
-    gap: 5px; 
+    gap: 8px; 
     margin-top: 20px; 
       }
       
