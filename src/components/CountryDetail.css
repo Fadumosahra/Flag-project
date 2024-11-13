@@ -246,16 +246,10 @@ body {
       }
 
       .border-countries {
-        margin-top: 30px; 
-        margin-left: -90px;
+        margin-top: 50px; 
+        margin-left: -140px;
       }
       
-   
-    
-      .no-border-countries {
-        margin-top: 10px; 
-        display: block;
-    }
       .border-button {
         padding: 8px;
         font-size: 12px;
