@@ -242,16 +242,13 @@ body {
      max-width: 100%; 
     grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
     gap: 6px; 
-    margin-top: 10px; 
+    margin-top: 15px; 
       }
       
-
-
-
+   
+    
       .no-border-countries {
         margin-top: 10px; 
-        display: block; 
-        text-align: left;
     }
       .border-button {
         padding: 8px;
