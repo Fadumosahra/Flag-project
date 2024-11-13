@@ -220,10 +220,13 @@ body {
       }
       
       .flag-container {
-        margin-left: 40px; 
+        margin-left: 30px; 
       }
 
      
+      .country-info-container{
+        margin-top: -140px;
+      }
 
 
       .country-info {
@@ -235,12 +238,12 @@ body {
       
       
 
-    .border-countries-container {
+      .border-countries-container {
      max-width: 100%; 
     grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
-    gap: 9px; 
+    gap: 6px; 
     margin-top: 20px; 
-    }
+      }
       
 
       .border-button {
@@ -250,9 +253,12 @@ body {
         cursor: pointer;
       }
 
- .border-countries-container p {
-    margin-left: -10px;
- }
+      .border-countries-container p {
+        margin-bottom: 10px;
+      }
+      .no-border-countries {
+        margin-top: 10px;
+    }
      
   .back-button {
     font-size: 25px;
