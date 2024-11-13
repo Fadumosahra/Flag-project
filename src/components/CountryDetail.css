@@ -253,8 +253,9 @@ body {
         cursor: pointer;
       }
 
-.no-border-countries-container p strong {
-    margin-bottom: 10px;
+.no-border-countries-container p  {
+    display: flex;
+    flex-direction: column;
     display: block; 
 }
      
