@@ -224,9 +224,6 @@ body {
       }
 
      
-      .country-info-container{
-        margin-top: -140px;
-      }
 
 
       .country-info {
@@ -253,11 +250,9 @@ body {
         cursor: pointer;
       }
 
-.no-border-countries-container p  {
-    display: flex;
-    flex-direction: column;
-    display: block; 
-}
+ .border-countries-container p {
+    margin-left: -10px;
+ }
      
   .back-button {
     font-size: 25px;

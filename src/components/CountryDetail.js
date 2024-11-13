@@ -75,7 +75,7 @@ const CountryDetail = () => {
                 </Link>
               ))
             ) : (
-              <p className="no-border-countries">No border countries</p>
+              <p className="no-border-countries"> No border countries </p>
             )}
           </div>
         </div>
