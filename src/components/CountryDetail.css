@@ -240,8 +240,8 @@ body {
 
       .border-countries-container {
      max-width: 100%; 
-    grid-template-columns: repeat(auto-fill, minmax(100px, 5fr));
-    gap: 8px; 
+    grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
+    gap: 6px; 
     margin-top: 20px; 
       }
       
@@ -254,6 +254,7 @@ body {
       }
 
 
+     
   .back-button {
     font-size: 25px;
     margin-top: 20px;
