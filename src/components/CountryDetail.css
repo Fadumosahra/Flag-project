@@ -222,13 +222,12 @@ body {
       }
       
       .flag-container {
-        margin-left: 40px; 
+        margin-left: 0px; 
       }
 
      
       .country-info-container{
         margin-top: -140px;
-
       }
       .country-info {
         display: grid;
@@ -243,7 +242,7 @@ body {
         display: flex; 
        flex-wrap: nowrap; 
   overflow-x: auto; 
-  max-width: 60%; 
+  max-width: 100%; 
   padding: 10px;
   gap: 10px; 
   box-sizing: border-box; 

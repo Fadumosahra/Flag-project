@@ -227,7 +227,7 @@ color: var(--white);
     display: none;
   }
   .navbar h1 {
-    font-size: 25px;
+    font-size: 15px;
     margin: 0; 
   }
   
@@ -237,7 +237,9 @@ color: var(--white);
     gap: 2px; 
   }
 
-
+.dark-mode-text {
+font-size: 15px;
+}
   .flag-image {
     width: 100%;
     height: auto;
@@ -253,11 +255,10 @@ color: var(--white);
   
   .country-card {
     max-width: 400px;
-    margin: 0 auto; 
-    margin-bottom: 1rem;
+    height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
-  
+  ¥
   .filter-container {
     display: flex;
     flex-direction: column;  
