@@ -242,7 +242,7 @@ color: var(--white);
   }
   
   .country-card {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto; 
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 

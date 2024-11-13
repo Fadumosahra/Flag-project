@@ -241,10 +241,10 @@ body {
 
       .border-countries-container {
         display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     grid-auto-rows: 50px; 
-    gap: 1px;
-    max-width: 800px; 
+    gap: 10px;
+
     overflow-y: auto; 
     padding: 10px;
     box-sizing: border-box;
