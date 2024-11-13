@@ -220,7 +220,7 @@ body {
       }
       
       .flag-container {
-        margin-left: 40px; 
+        margin-left: 30px; 
       }
 
      
@@ -253,7 +253,9 @@ body {
         cursor: pointer;
       }
 
-
+.border-countries-container p {
+    gap: 5px;
+}
      
   .back-button {
     font-size: 25px;
