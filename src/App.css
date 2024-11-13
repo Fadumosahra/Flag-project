@@ -190,6 +190,14 @@ color: var(--white);
   font-size: 10px;
 }
 
+
+.flag-image {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
   
   .filter-container {
     display: flex;
