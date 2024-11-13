@@ -239,21 +239,25 @@ body {
       
 
       .border-countries-container {
-     max-width: 100%; 
-    grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
-    gap: 6px; 
-    margin-bottom: 40px; 
-      }
-
-      .border-countries {
-        margin-bottom: 40px; 
-      }
-
-      .no-border-countries {
+        max-width: 100%; 
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(100px, 4fr)); 
+        gap: 6px; 
         margin-bottom: 20px; 
-        margin-left: 120px;
-        
+      }
+      
+      .border-countries {
+        margin-bottom: 20px; 
+      }
+      
+      .no-border-countries {
+        margin: 0 auto; 
+        margin-top: 0; 
+        margin-bottom: 20px; 
+        width: 100%;
+        max-width: 600px; 
     }
+      
 
 
       .border-button {
