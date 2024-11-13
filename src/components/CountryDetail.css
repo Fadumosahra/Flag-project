@@ -245,17 +245,9 @@ body {
     margin-top: 20px; 
       }
 
-      .border-countries {
-        margin-top: 10px; 
-        margin-left: -120px;
-      }
-      
-   
-    
       .no-border-countries {
         margin-top: 10px; 
         margin-left: -120px;
-        display: block;
     }
       .border-button {
         padding: 8px;
