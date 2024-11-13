@@ -248,10 +248,10 @@ body {
 
       .border-countries {
         margin-top: 50px; 
-        margin-left: -140px;
+        margin-left: -130px;
       }
       
-      
+
       .border-button {
         padding: 8px;
         font-size: 12px;
@@ -259,6 +259,10 @@ body {
         cursor: pointer;
       }
 
+       .no-border-countries {
+        margin-top: 50px;
+        margin-left: -120px;
+       }
     
      
   .back-button {
