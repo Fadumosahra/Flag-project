@@ -241,9 +241,12 @@ body {
 
       .border-countries-container {
         display: flex; 
-        flex-wrap: wrap;
-        max-width: 60%; 
-        overflow-x: auto; 
+       flex-wrap: nowrap; 
+  overflow-x: auto; 
+  max-width: 100%; 
+  padding: 10px;
+  gap: 10px; 
+  box-sizing: border-box; 
       }
       
 
