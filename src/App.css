@@ -207,7 +207,7 @@ color: var(--white);
 
 @media (max-width: 768px) {
 
-
+   
 
   .navbar {
     display: flex;
@@ -217,6 +217,15 @@ color: var(--white);
     box-sizing: border-box;
   }
   
+
+  .flag-image {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+
   .navbar-logo{
     display: none;
   }
@@ -234,12 +243,12 @@ color: var(--white);
 
   .countries-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); 
     padding: 1rem;
   }
   
   .country-card {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto; 
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
