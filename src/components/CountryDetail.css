@@ -246,6 +246,13 @@ body {
       }
       
 
+
+
+      .no-border-countries {
+        margin-top: 10px; 
+        display: block; 
+        text-align: left;
+    }
       .border-button {
         padding: 8px;
         font-size: 12px;
@@ -253,12 +260,7 @@ body {
         cursor: pointer;
       }
 
-      .border-countries-container p {
-        margin-bottom: 10px;
-      }
-      .no-border-countries {
-        margin-top: 10px;
-    }
+    
      
   .back-button {
     font-size: 25px;
