@@ -240,7 +240,7 @@ body {
       
 
       .border-countries-container {
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(1, 5fr);
         flex-wrap: wrap;
         max-width: 90%; 
         
