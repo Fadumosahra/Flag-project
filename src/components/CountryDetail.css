@@ -246,11 +246,12 @@ body {
       }
 
       .border-countries {
-        margin-bottom: 20px; 
+        margin-bottom: 40px; 
       }
 
       .no-border-countries {
-        margin-top: 50px; 
+        margin-bottom: 20px; 
+        margin-left: 120px;
         
     }
 
