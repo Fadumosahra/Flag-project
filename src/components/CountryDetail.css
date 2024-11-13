@@ -238,10 +238,10 @@ body {
       
       
 
-      .border-countries-container {
+    .border-countries-container {
      max-width: 100%; 
     grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
-    gap: 6px; 
+    gap: 9px; 
     margin-top: 20px; 
       }
       
@@ -253,8 +253,9 @@ body {
         cursor: pointer;
       }
 
-.border-countries-container p {
-    gap: 5px;
+.no-border-countries-container p {
+    margin-bottom: 10px;
+    display: block; 
 }
      
   .back-button {
