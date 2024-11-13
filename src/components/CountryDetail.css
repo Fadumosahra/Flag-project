@@ -243,7 +243,7 @@ body {
         display: flex; 
        flex-wrap: nowrap; 
   overflow-x: auto; 
-  max-width: 100%; 
+  max-width: 60%; 
   padding: 10px;
   gap: 10px; 
   box-sizing: border-box; 
