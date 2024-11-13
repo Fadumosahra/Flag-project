@@ -222,12 +222,13 @@ body {
       }
       
       .flag-container {
-        margin-left: 0px; 
+        margin-left: 40px; 
       }
 
      
       .country-info-container{
         margin-top: -140px;
+
       }
       .country-info {
         display: grid;
@@ -239,13 +240,15 @@ body {
       
 
       .border-countries-container {
-        display: flex; 
-       flex-wrap: nowrap; 
-  overflow-x: auto; 
-  max-width: 100%; 
-  padding: 10px;
-  gap: 10px; 
-  box-sizing: border-box; 
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-auto-rows: 50px; 
+    gap: 1px;
+    max-width: 800px; 
+    overflow-y: auto; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 50px; 
       }
       
 

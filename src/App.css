@@ -190,14 +190,6 @@ color: var(--white);
   font-size: 10px;
 }
 
-
-.flag-image {
-  width: 100%;
-  max-width: 200px;
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
   
   .filter-container {
     display: flex;
@@ -215,6 +207,8 @@ color: var(--white);
 
 @media (max-width: 768px) {
 
+
+
   .navbar {
     display: flex;
     justify-content: space-between; 
@@ -231,21 +225,15 @@ color: var(--white);
     margin: 0; 
   }
   
+  .dark-mode-text{
+    font-size: 15px;
+  }
   .dark-mode-toggle {
     display: flex;
     align-items: center; 
     gap: 2px; 
   }
 
-.dark-mode-text {
-font-size: 15px;
-}
-  .flag-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
-    display: block;
-  }
 
   .countries-container {
     display: grid;
@@ -255,10 +243,11 @@ font-size: 15px;
   
   .country-card {
     max-width: 400px;
-    height: auto;
+    margin: 0 auto; 
+    margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
-  ¥
+  
   .filter-container {
     display: flex;
     flex-direction: column;  
