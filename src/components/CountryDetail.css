@@ -204,9 +204,7 @@ body {
     .detail-container {
         display: flex;
         flex-direction: column;
-        padding: 1rem; 
-        max-width: 800px; 
-        gap: 1px;
+        gap: 20px;
         
       }
       
@@ -239,23 +237,18 @@ body {
       
 
       .border-countries-container {
-        max-width: 100%; 
-        display: grid; 
-        grid-template-columns: repeat(auto-fill, minmax(100px, 4fr)); 
-        gap: 6px; 
-        margin-bottom: 20px; 
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Flexibel layout för grannländer */
+        gap: 6px;
       }
       
       .border-countries {
-        margin-bottom: 20px; 
+        margin-bottom: 0; 
       }
       
       .no-border-countries {
-        margin: 0 auto; 
         margin-top: 0; 
-        margin-bottom: 20px; 
-        width: 100%;
-        max-width: 600px; 
+        margin-bottom: 0 
     }
       
 
